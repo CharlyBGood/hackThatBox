@@ -1,0 +1,38 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5em;
+  gap: 1em;
+  margin: 2em;
+  background: #111;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+  color: aliceblue;
+}
+
+input {
+  background-color: black;
+  color: aliceblue;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
